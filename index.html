@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check your Status</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Is it a Profit Or Loss?</h1>
+      <form>
+        <label for="purchase-price">Purchase price :</label>
+        <input
+          min="1"
+          type="number"
+          placeholder="Enter Cost Price of Stock"
+          id="purchase-price"
+          required
+        />
+        <label for="stocks-quantity">Stock Quantity :</label>
+        <input
+          min="1"
+          type="number"
+          placeholder="Enter quantity of Stocks"
+          id="stocks-quantity"
+          required
+        />
+        <label for="current-price">Current Price :</label>
+        <input
+          min="1"
+          type="number"
+          placeholder="Enter Current Price of the stocks"
+          id="current-price"
+          required
+        />
+        <button type="submit">Tell Me !! ⬇</button>
+      </form>
+      <div id="output"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
